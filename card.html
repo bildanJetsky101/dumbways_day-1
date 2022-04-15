@@ -2,35 +2,47 @@
     <body style="background-color: rgb(228, 228, 228);">
         <head>
             <link rel="stylesheet" href="css/all.min.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap" rel="stylesheet">
             <title>Creating Card</title>
             <style>
-                .social ul li{
+                body{
+                    font-family: 'Plus Jakarta Sans', sans-serif;
+                }
+                .social ul a{
                     padding: 0px 10px;
+                    color: black;
+                   
                 }
             </style>
         </head>
         <div class="card" 
         style="border: 0px solid black; 
                 width: 50%; 
-                padding: 15px;
+                padding: 45px 0px;
                 margin: 40px auto;
                 background-color: rgb(255, 255, 255);
-                text-align: justify;">
+                text-align: justify;
+                box-shadow: 2px 1px 6px rgb(146, 146, 146);">
             <div class="card-content"style="margin:auto;
-            width: 55%;">
+            width: 60%;">
                 <div class="title">
-                    <h1>Welcome To My Hut</h1>
+                    <h2 style="font-weight: 700; margin-bottom: -5px;">hi, welcome to my hut</h2>
                 </div>
                 <div class="content">
+                   
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta, nulla ullam. Suscipit, impedit non fugiat ducimus ex, maxime ipsa praesentium cum incidunt natus id voluptatem repellendus odio quasi magnam animi aut assumenda enim sequi repellat sint. Veniam saepe fugiat repellat! Omnis necessitatibus modi ea iste excepturi suscipit laborum et corrupti.</p>
-                    <button style="background-color: black;
+                    <button type="button"style="background-color: black;
                                     color: white;
                                     border-radius: 20px;
                                     padding: 7px;
                                     width: 100px;
+                                    cursor: pointer;
                     border: none;">Contact</button>
                     <div class="download-section" style="display: inline; margin: 10px 0;">
-                        <p>Download My CV &nbsp;&nbsp;<i class="fa-solid fa-download"></i></p>
+                        <p>Download My CV &nbsp;&nbsp;<a href="" style="color: black;"><i class="fa-solid fa-download"></i></a></p>
                        
                     </div>
                     <div class="social" style="display: inline; margin-left:150px;">
@@ -38,25 +50,26 @@
                                    display: flex;
                                    flex-direction: row;
                                    justify-content: center;
-                                   padding: 20px;">
-                            <li><i class="fa-brands fa-2x fa-github"></i></li>
-                            <li><i class="fa-brands fa-2x fa-instagram-square"></i></li>
-                            <li><i class="fa-brands fa-2x fa-facebook"></i></li>
-                            <li><i class="fa-brands fa-2x fa-linkedin"></i></li>
+                                   padding: 20px;
+                                   color :black">
+                            <li><a href=""><i class="fa-brands fa-2x fa-github"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-2x fa-instagram-square"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-2x fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-2x fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                     <div class="card-image" 
                         style="margin:auto;
                                 background-color: white;
-                                width: 70%;
+                                width: 75%;
                                 margin-top: 20px;
                                 box-shadow: 2px 1px 6px rgb(146, 146, 146);">
                         <div class="image">
                             <img src="asset/man.jpg" alt="" style="width: 100%; border-top: 10px;">
                         </div>
                         <div class="name" style="text-align: center; padding: 5px; height: 100px;">
-                            <h1 >Bildan Jauhary</h1>
-                            <p  >Fullstack Developer</p>
+                            <h2 >Bildan Jauhary</h2>
+                            <p  style="margin-top: -20px;">Fullstack Developer</p>
                         </div>
                     </div>
                 </div>
